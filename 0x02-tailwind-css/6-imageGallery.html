@@ -18,19 +18,18 @@
       <h1 class="text-3xl">Grid and Flexbox Layout</h1>
     </header>
 
-    <main>
-      <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
-        <div>Flexbox Item 1</div>
-        <div>Flexbox Item 2</div>
-        <div>Flexbox Item 3</div>
+    <main class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
+      <section class="lg:col-span-2 flex">
+        <div class="w-1/2 bg-red-200 p-4">Flexbox Item 1</div>
+        <div class="w-1/2 bg-red-400 p-4">Flexbox Item 2</div>
       </section>
       <aside class="bg-green-200 p-4">Sidebar</aside>
     </main>
     <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mt-4 min-h-screen">
-      <img src="/image001.avif" alt="image1"></img>
-      <img src="/image002.avif" alt="image2"></img>
-      <img src="/image003.avif" alt="image3"></img>
-  </section>
+      <img src="/0x02-tailwind-css/src/image 2.svg" alt="Image1" />
+      <img src="/0x02-tailwind-css/src/image 3.svg" alt="Image2" />
+      <img src="/0x02-tailwind-css/src/image 17.svg" alt="Image3" />
+    </section>
     <footer class="bg-gray-800 text-white p-4 mt-4">
       <p>&copy; 2024 John Doe's Blog</p>
     </footer>
