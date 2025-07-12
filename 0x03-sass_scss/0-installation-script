@@ -1,0 +1,7 @@
+## STEPS I TOOK FOR SASS INSTALLATION!!
+
+1. I created the sass app using vscode terminal.
+2. I activated the sass directory using the terminal.
+3. I install sass manually using node.js command [npm sass -g install]
+4. After the installation process was completed, i checked the current version
+   of the sass using [npx sass --version]
